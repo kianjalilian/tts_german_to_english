@@ -1,0 +1,15 @@
+# Ignore everything
+*
+
+# Allow Python files and directories
+!*.py
+!*/ 
+
+# Allow docx files
+!*.docx
+
+# Exclude gitignore file itself
+!.gitignore
+
+# Ignore virtual environment directory (if exists)
+venv/
